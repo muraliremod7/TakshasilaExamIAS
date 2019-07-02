@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "848402350608",
+    "firebase_url": "https://takshasila-47b6f.firebaseio.com",
+    "project_id": "takshasila-47b6f",
+    "storage_bucket": "takshasila-47b6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848402350608:android:275cf9948ffb3812",
+        "android_client_info": {
+          "package_name": "com.takshasila.exam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848402350608-l9bacoiv9k1st79kbunruj448njt657h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS3xgzSQxUa75GJAETwj8HumGwdQSEVws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848402350608-l9bacoiv9k1st79kbunruj448njt657h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.takshasila.exam.RegistrationActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/takshasilalogo"/>
+            <LinearLayout
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="7dp"
+                    android:background="@color/colorPrimary"
+                    app:srcCompat="@drawable/ic_name"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:tint="@color/colortint"
+                    tools:ignore="VectorDrawableCompat" />
+                <EditText
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/edittext_backgroung"
+                    android:id="@+id/name_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Enter Name"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="7dp"
+                    android:background="@color/colorPrimary"
+                    app:srcCompat="@drawable/ic_email"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:tint="@color/colortint"
+                    tools:ignore="VectorDrawableCompat" />
+                <EditText
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/edittext_backgroung"
+                    android:id="@+id/mailid_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Enter Mail-ID"
+                    android:inputType="textEmailAddress" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="7dp"
+                    android:background="@color/colorPrimary"
+                    app:srcCompat="@drawable/ic_phone"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:tint="@color/colortint"
+                    tools:ignore="VectorDrawableCompat" />
+                <EditText
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/edittext_backgroung"
+                    android:id="@+id/mobile_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Enter Mobile Number"
+                    android:inputType="phone" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="7dp"
+                    android:background="@color/colorPrimary"
+                    app:srcCompat="@drawable/ic_password"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:tint="@color/colortint"
+                    tools:ignore="VectorDrawableCompat" />
+                <EditText
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/edittext_backgroung"
+                    android:id="@+id/password_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Enter Password"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="7dp"
+                    android:background="@color/colorPrimary"
+                    app:srcCompat="@drawable/ic_password"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:tint="@color/colortint"
+                    tools:ignore="VectorDrawableCompat" />
+                <EditText
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/edittext_backgroung"
+                    android:id="@+id/checkpassword_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/registration"
+                android:layout_width="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Registration"
+                style="@style/button_style"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
